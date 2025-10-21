@@ -108,11 +108,12 @@ contract KipuBankV2 is Ownable, AccessControl, ReentrancyGuard, Pausable {
     /// @notice Se emite cuando un token ERC-20 es removido o deshabilitado.
     event SupportedTokenRemoved(address token);
 
-    /// @notice Se emite al pausar el contrato.
-    event Paused(address by);
+    // OpenZeppelin ya define estas funciones
+    // @notice Se emite al pausar el contrato.
+    //event Paused(address by);
 
-    /// @notice Se emite al reanudar el contrato.
-    event Unpaused(address by);
+    // @notice Se emite al reanudar el contrato.
+    //event Unpaused(address by);
 
     /// @notice Se emite cuando se asigna un nuevo rol a una cuenta.
     event RoleGranted(address indexed account, bytes32 role);
@@ -200,7 +201,7 @@ contract KipuBankV2 is Ownable, AccessControl, ReentrancyGuard, Pausable {
     if (_cepholia != address(0)) emit SupportedTokenAdded(_cepholia);
 
     // -------------------- Evento de inicialización --------------------
-    address ;
+    address[] memory tokens = new address[](3);
     tokens[0] = address(0);
     tokens[1] = _usdc;
     tokens[2] = _cepholia;
