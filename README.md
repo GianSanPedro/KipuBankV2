@@ -9,7 +9,7 @@ El objetivo de esta versión es simular un contrato inteligente preparado para *
 
 ---
 
-## 🚀 Mejoras Implementadas
+## Mejoras Implementadas
 
 ### 1. Control de acceso basado en roles
 - Implementación mediante `AccessControl` y `Ownable` de OpenZeppelin.  
@@ -64,7 +64,7 @@ El objetivo de esta versión es simular un contrato inteligente preparado para *
 
 ---
 
-## 📦 Estructura del Contrato
+## Estructura del Contrato
 
 | Sección | Descripción |
 |----------|-------------|
@@ -128,3 +128,10 @@ El objetivo de esta versión es simular un contrato inteligente preparado para *
    _usdc: Dirección del token USDC (ERC-20)
    _cepholia: Dirección del token CE Sepolia o equivalente ERC-20
 6. Presionar Deploy y confirmar la transacción en MetaMask.
+
+## 📍 Información de Despliegue
+
+> **Red:** Sepolia Testnet  
+> **Dirección del contrato:** [`0x85f53bd850c17B9B6D96A4Aabe9F7EcfA88990c0`](https://sepolia.etherscan.io/address/0x85f53bd850c17B9B6D96A4Aabe9F7EcfA88990c0)  
+> **Transacción de despliegue:** [`0x488ebcd3330740591bf32a5d6dcf4dfe167c3f01d47bf33d7478adea77d4ca3f`](https://sepolia.etherscan.io/tx/0x488ebcd3330740591bf32a5d6dcf4dfe167c3f01d47bf33d7478adea77d4ca3f)  
+> **Código verificado:** [Sourcify Repository](https://repo.sourcify.dev/11155111/0x85f53bd850c17B9B6D96A4Aabe9F7EcfA88990c0/)  
