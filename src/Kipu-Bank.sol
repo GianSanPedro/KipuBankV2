@@ -532,7 +532,7 @@ contract KipuBankV2 is Ownable, AccessControl, ReentrancyGuard, Pausable {
     }
 
     // =============================================================
-    // FUNCIONES DE SOPORTE Y FALLBACK
+    // 12. FUNCIONES DE SOPORTE Y FALLBACK
     // =============================================================
 
     /**
